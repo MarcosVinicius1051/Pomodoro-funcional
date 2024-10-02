@@ -55,8 +55,8 @@ body{
 
     .pomodoro-area{
         
-        margin-top: 150px;
-        margin-bottom: 80px;
+        margin-top: 80px;
+        margin-bottom: 40px;
         flex: 1  auto;
         display: flex;
         flex-direction: column;

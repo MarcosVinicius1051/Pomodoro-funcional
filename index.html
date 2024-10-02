@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/efeitos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    
+
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="cointainer">
+        <div class="container-titulo">
+            <div class="texto-titulo">
+                <h1>POMODORO</h1>
+            </div>
+        </div>
+        <div class="pomodoro-area">
+            <div class="cronometro">
+                <p>25:00</p>
+            </div>
+            <div class="buttom">
+                <button class="btn">START</button>
+            </div>
+            <div class="buttonsPosStart">
+                <button class="btnPause btnOptions displayNone"><img src="img/pause_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="stop"></button>
+                <button class="btnContinue btnOptions displayNone"><img src="img/play_arrow_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="continue"></button>
+                <button class="btnVoltar btnOptions displayNone"><img src="img/refresh_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="voltar"></button>
+            </div>
+            <div>
+                <audio class="alarm displayNone" controls>
+                    <source  src="audios/mixkit-digital-clock-digital-alarm-buzzer-992.wav" type="audio/x-wav">
+                </audio>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+<script src="js/estilizerPC.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
